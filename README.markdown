@@ -94,7 +94,7 @@ No está diseñado para producción ni para uso comercial, sino como un ejercici
 4. Si ejecutas el script varias veces el mismo día, se crearán carpetas con sufijos como `YYYY-MM-DD_V1`, `YYYY-MM-DD_V2`, etc.
 
 ## Configuración
-El archivo contiene un diccionario `noticias.py` con parámetros ajustables:
+El archivo contiene un diccionario `CONFIG` con parámetros ajustables:
 - `news_count`: Número de noticias a extraer (por defecto, 5).
 - `caption_max_length`: Longitud máxima del caption de TikTok (150 caracteres).
 - `summary_length`: Longitud del resumen en el caption (80 caracteres).
@@ -102,7 +102,7 @@ El archivo contiene un diccionario `noticias.py` con parámetros ajustables:
 - `hashtags`: Lista de hashtags para los captions.
 - `history_limit`: Máximo de noticias en el historial (500).
 
-Modifica `noticias.py` en el código para personalizar el comportamiento.
+Modifica `CONFIG` en el código para personalizar el comportamiento.
 
 ## Notas
 - **Ética**: Respeta los términos de uso de Vandal. Este proyecto es solo para aprendizaje y no debe usarse para violar derechos de autor o políticas del sitio.
